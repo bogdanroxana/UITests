@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T14:50:48 EEST" name="All Test Suite" finished-at="2022-05-12T14:54:20 EEST" duration-ms="211234">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T14:50:48 EEST" name="C:/Users/roxana.bogdan/Desktop/Project" finished-at="2022-05-12T14:54:20 EEST" duration-ms="211234">
+      <class name="testCases.FacturasPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:50:48 EEST" name="setUp" finished-at="2022-05-12T14:50:54 EEST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchByInvoiceNumber()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:50:54 EEST" name="searchByInvoiceNumber" finished-at="2022-05-12T14:51:17 EEST" duration-ms="22902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByInvoiceNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:51:17 EEST" name="tearDown" finished-at="2022-05-12T14:51:17 EEST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:51:17 EEST" name="setUp" finished-at="2022-05-12T14:51:21 EEST" duration-ms="4282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectMultipleInvoceis()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:51:21 EEST" name="selectMultipleInvoceis" finished-at="2022-05-12T14:51:47 EEST" duration-ms="25893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleInvoceis -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:51:47 EEST" name="tearDown" finished-at="2022-05-12T14:51:48 EEST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:51:48 EEST" name="setUp" finished-at="2022-05-12T14:51:52 EEST" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchByDate()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:51:52 EEST" name="searchByDate" finished-at="2022-05-12T14:53:03 EEST" duration-ms="70941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-12T14:53:03 EEST" name="tearDown" finished-at="2022-05-12T14:53:04 EEST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.FacturasPageTests -->
+      <class name="testCases.AjustesPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-12T14:53:44 EEST" name="setUp" finished-at="2022-05-12T14:53:47 EEST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkSaveButton()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-12T14:53:47 EEST" name="checkSaveButton" finished-at="2022-05-12T14:54:02 EEST" duration-ms="15355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSaveButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-12T14:54:02 EEST" name="tearDown" finished-at="2022-05-12T14:54:03 EEST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-12T14:54:03 EEST" name="setUp" finished-at="2022-05-12T14:54:08 EEST" duration-ms="4833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkCancelButton()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-12T14:54:08 EEST" name="checkCancelButton" finished-at="2022-05-12T14:54:19 EEST" duration-ms="11723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCancelButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-12T14:54:19 EEST" name="tearDown" finished-at="2022-05-12T14:54:20 EEST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AjustesPageTests -->
+      <class name="testCases.ResumenPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-12T14:53:04 EEST" name="setUp" finished-at="2022-05-12T14:53:07 EEST" duration-ms="3733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="downloadButtonNotAvailable()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-12T14:53:07 EEST" name="downloadButtonNotAvailable" finished-at="2022-05-12T14:53:22 EEST" duration-ms="14731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadButtonNotAvailable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-12T14:53:22 EEST" name="tearDown" finished-at="2022-05-12T14:53:22 EEST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-12T14:53:22 EEST" name="setUp" finished-at="2022-05-12T14:53:27 EEST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="downloadButtonAvailable()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-12T14:53:27 EEST" name="downloadButtonAvailable" finished-at="2022-05-12T14:53:44 EEST" duration-ms="16961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadButtonAvailable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-12T14:53:44 EEST" name="tearDown" finished-at="2022-05-12T14:53:44 EEST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ResumenPageTests -->
+    </test> <!-- C:/Users/roxana.bogdan/Desktop/Project -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

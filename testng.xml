@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/roxana.bogdan/Desktop/Project">
+        <classes>
+            <class name="testCases.FacturasPageTests">
+                <methods>
+                    <include name="searchByInvoiceNumber"/>
+                    <include name="selectMultipleInvoceis"/>
+                    <include name="searchByDate"/>
+                </methods>
+            </class>
+            <class name="testCases.ResumenPageTests">
+                <methods>
+                    <include name="downloadButtonNotAvailable"/>
+                    <include name="downloadButtonAvailable"/>
+                </methods>
+            </class>
+            <class name="testCases.AjustesPageTests">
+                <methods>
+                    <include name="checkSaveButton"/>
+                    <include name="checkCancelButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
