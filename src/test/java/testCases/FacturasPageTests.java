@@ -1,6 +1,5 @@
 package testCases;
 
-import org.checkerframework.checker.units.qual.A;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.FacturasPage;
@@ -12,9 +11,9 @@ public class FacturasPageTests extends DriverBase{
     @Test
     public void searchByInvoiceNumber() throws Exception {
         facturasPage = new FacturasPage(driver);
+        facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
-        facturasPage.acceptCookies();
         facturasPage.setSearchField(TestData.SEARCH_BY_INVOICE_NUMBER);
         facturasPage.clickSearchButton();
         facturasPage.clickOpenInvoice();
@@ -26,9 +25,9 @@ public class FacturasPageTests extends DriverBase{
     @Test
     public void selectMultipleInvoceis() throws Exception {
         facturasPage = new FacturasPage(driver);
+        facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
-        facturasPage.acceptCookies();
         facturasPage.setSearchField(TestData.SELECT_MULTIPLE_INVOICES);
         facturasPage.clickSearchButton();
         facturasPage.setCheckbox();
@@ -39,9 +38,9 @@ public class FacturasPageTests extends DriverBase{
     @Test
     public void searchByDate() throws Exception {
         facturasPage = new FacturasPage(driver);
+        facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
-        facturasPage.acceptCookies();
         facturasPage.sendStartDate();
         facturasPage.sendStopDate();
         facturasPage.clickSearchButton();

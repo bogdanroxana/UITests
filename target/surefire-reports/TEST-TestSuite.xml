@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="211.61" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="222.133" tests="7" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="18"/>
     <property name="webdriver.chrome.driver" value="C:\APPS\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -12,53 +12,57 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Bucharest"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vm.specification.version" value="18"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\roxana.bogdan\AppData\Local\Temp\surefire5673404877458883039\surefirebooter1092158330190497349.jar C:\Users\roxana.bogdan\AppData\Local\Temp\surefire5673404877458883039 2022-05-12T14-50-48_029-jvmRun1 surefire7291657750124074366tmp surefire_04517999876618992078tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
+    <property name="sun.java.command" value="C:\Users\roxana.bogdan\AppData\Local\Temp\surefire14496339327723098824\surefirebooter9048475095512671215.jar C:\Users\roxana.bogdan\AppData\Local\Temp\surefire14496339327723098824 2022-05-13T09-44-51_819-jvmRun1 surefire13497752264852365458tmp surefire_013033480775132092191tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\roxana.bogdan\Desktop\Project\target\test-classes;C:\Users\roxana.bogdan\Desktop\Project\target\classes;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\roxana.bogdan\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\roxana.bogdan\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\roxana.bogdan\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\roxana.bogdan\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\roxana.bogdan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\roxana.bogdan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\roxana.bogdan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\roxana.bogdan\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\roxana.bogdan\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\roxana.bogdan\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\roxana.bogdan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\roxana.bogdan\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\roxana.bogdan\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\roxana.bogdan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\roxana.bogdan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\roxana.bogdan\.m2\repository\org\apache\pdfbox\pdfbox\2.0.25\pdfbox-2.0.25.jar;C:\Users\roxana.bogdan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\roxana.bogdan\.m2\repository\org\apache\pdfbox\fontbox\2.0.25\fontbox-2.0.25.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\roxana.bogdan"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-01-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\roxana.bogdan\Desktop\Project"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\roxana.bogdan\AppData\Local\Temp\surefire5673404877458883039\surefirebooter1092158330190497349.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\roxana.bogdan\AppData\Local\Temp\surefire14496339327723098824\surefirebooter9048475095512671215.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="java.runtime.version" value="18+36-2087"/>
     <property name="user.name" value="roxana.bogdan"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\roxana.bogdan\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\ROXANA~1.BOG\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.2"/>
+    <property name="java.version" value="18"/>
     <property name="user.dir" value="C:\Users\roxana.bogdan\Desktop\Project"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Program Files\nodejs\;C:\Users\roxana.bogdan\Desktop\drivers;C:\Maven\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\APPS;C:\Users\roxana.bogdan\Desktop\drivers;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\roxana.bogdan\AppData\Local\Microsoft\WindowsApps;C:\Users\roxana.bogdan\AppData\Roaming\npm;C:\Users\roxana.bogdan\AppData\Local\Programs\Microsoft VS Code\bin;C:\WebDriver\bin;C:\APPS;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Program Files\nodejs\;C:\Users\roxana.bogdan\Desktop\drivers;C:\Maven\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-18\bin;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\APPS;C:\Users\roxana.bogdan\Desktop\drivers;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\roxana.bogdan\AppData\Local\Microsoft\WindowsApps;C:\Users\roxana.bogdan\AppData\Roaming\npm;C:\Users\roxana.bogdan\AppData\Local\Programs\Microsoft VS Code\bin;C:\WebDriver\bin;C:\APPS;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="java.vm.version" value="18+36-2087"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="searchByInvoiceNumber" classname="testCases.FacturasPageTests" time="22.864">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="searchByInvoiceNumber" classname="testCases.FacturasPageTests" time="23.733">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -68,10 +72,6 @@
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting fot element : Search Field : to be visible
 - sending keys : '053001' : to Search Field
 - sending keys : '053001' : to Search Field
@@ -87,6 +87,22 @@
 - clicking element : Open Invoice
 ]]></system-out>
     <system-err><![CDATA[[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
@@ -103,8 +119,6 @@
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
@@ -136,41 +150,31 @@
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
 [main] INFO org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
-Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 58772
+Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 58914
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:50:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:44:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:50:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:44:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:50:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:44:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="selectMultipleInvoceis" classname="testCases.FacturasPageTests" time="25.892">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="selectMultipleInvoceis" classname="testCases.FacturasPageTests" time="27.414">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -180,10 +184,6 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting fot element : Search Field : to be visible
 - sending keys : '054009' : to Search Field
 - sending keys : '054009' : to Search Field
@@ -200,20 +200,24 @@ INFO: Found CDP implementation for version 101 of 99
 - moving to element : Download Button
 - clicking element : Download Button
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 60201
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 49476
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:51:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:45:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:51:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:45:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:51:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:45:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="searchByDate" classname="testCases.FacturasPageTests" time="71.12">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="searchByDate" classname="testCases.FacturasPageTests" time="73.088">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -223,10 +227,6 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting for element : start date
 - waiting for element : start date : to be clickable
 - moving to element : start date
@@ -450,20 +450,24 @@ INFO: Found CDP implementation for version 101 of 99
 - moving to element : Next page
 - clicking element : Next page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 54403
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 62814
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:51:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:45:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:51:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:45:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:51:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:45:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="downloadButtonNotAvailable" classname="testCases.ResumenPageTests" time="14.725">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="downloadButtonNotAvailable" classname="testCases.ResumenPageTests" time="15.067">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -473,30 +477,30 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting for element : Resumen Tab
 - waiting for element : Resumen Tab : to be clickable
 - moving to element : Resumen Tab
 - clicking element : Resumen Tab
 - waiting fot element : First row : to be visible
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 62073
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 57507
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:53:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:47:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:53:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:47:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:53:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:47:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="downloadButtonAvailable" classname="testCases.ResumenPageTests" time="16.954">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="downloadButtonAvailable" classname="testCases.ResumenPageTests" time="18.769">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -506,10 +510,6 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting for element : Resumen Tab
 - waiting for element : Resumen Tab : to be clickable
 - moving to element : Resumen Tab
@@ -521,20 +521,24 @@ INFO: Found CDP implementation for version 101 of 99
 - moving to element : Download button
 - clicking element : Download button
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 60367
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 63995
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:53:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:47:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:53:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:47:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:53:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:47:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="checkSaveButton" classname="testCases.AjustesPageTests" time="15.359">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="checkSaveButton" classname="testCases.AjustesPageTests" time="13.708">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -544,10 +548,6 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting for element : Ajustes tab
 - waiting for element : Ajustes tab : to be clickable
 - moving to element : Ajustes tab
@@ -563,20 +563,24 @@ INFO: Found CDP implementation for version 101 of 99
 - clicking element : Save button
 - waiting fot element : Email text : to be visible
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 50523
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 63670
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:53:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:47:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:53:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:47:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:53:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:47:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="checkCancelButton" classname="testCases.AjustesPageTests" time="11.719">
-    <system-out><![CDATA[- waiting fot element : UserName Field : to be visible
+  <testcase name="checkCancelButton" classname="testCases.AjustesPageTests" time="14.514">
+    <system-out><![CDATA[- waiting for element : Shadow Element
+- waiting for element : Shadow Element : to be clickable
+- moving to element : Shadow Element
+- clicking element : Shadow Element
+- waiting fot element : UserName Field : to be visible
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'ametro4u+esX11@gmail.com' : to Username Field
 - sending keys : 'Test123!' : to Password Field
@@ -586,10 +590,6 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting for element : Login Button : to be clickable
 - moving to element : Login Button
 - clicking element : Login Button
-- waiting for element : Shadow Element
-- waiting for element : Shadow Element : to be clickable
-- moving to element : Shadow Element
-- clicking element : Shadow Element
 - waiting for element : Ajustes tab
 - waiting for element : Ajustes tab : to be clickable
 - moving to element : Ajustes tab
@@ -610,15 +610,15 @@ INFO: Found CDP implementation for version 101 of 99
 - waiting fot element : Invoice text : to be visible
 - waiting fot element : Invoice text : to be visible
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 61742
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.15 (0dcf182bd3881ac6567fb51e86a17ba341d19475-refs/branch-heads/4951@{#217}) on port 56583
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2022 2:54:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2022 9:48:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 12, 2022 2:54:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:48:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 12, 2022 2:54:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 13, 2022 9:48:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>

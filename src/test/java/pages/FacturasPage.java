@@ -74,6 +74,7 @@ public class FacturasPage {
 
     public void acceptCookies() throws InterruptedException {
         try{
+            Thread.sleep(5000);
             WebElement shadowElement = shadowHost.getShadowRoot().findElement(By.cssSelector("div > div > div > div > div > div > div > div > div.buttons > button"));
             clickElement(driver, shadowElement, "Shadow Element");
         }catch(NoSuchElementException e ){
