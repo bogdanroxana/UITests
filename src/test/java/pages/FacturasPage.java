@@ -76,7 +76,9 @@ public class FacturasPage {
         try{
             Thread.sleep(5000);
             WebElement shadowElement = shadowHost.getShadowRoot().findElement(By.cssSelector("div > div > div > div > div > div > div > div > div.buttons > button"));
-            clickElement(driver, shadowElement, "Shadow Element");
+            if(shadowElement.isDisplayed()){
+                clickElement(driver, shadowElement, "Shadow Element");
+            }
         }catch(NoSuchElementException e ){
             int i = 0;
             while(true){
