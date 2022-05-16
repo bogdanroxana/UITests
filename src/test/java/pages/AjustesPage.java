@@ -81,7 +81,8 @@ public class AjustesPage {
         CommonTask.clickElement(driver, cancelButton, "Cancel Button");
     }
 
-    public String getTitlePage(){
+    public String getTitlePage() throws InterruptedException {
+        Thread.sleep(1000);
         return titleElement.getText();
     }
 }
