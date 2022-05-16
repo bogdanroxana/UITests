@@ -3,22 +3,22 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="C:/Users/roxana.bogdan/Desktop/Project(failed)" verbose="0">
     <classes>
-      <class name="testCases.AjustesPageTests">
-        <methods>
-          <include name="checkSaveButton"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="checkCancelButton"/>
-        </methods>
-      </class> <!-- testCases.AjustesPageTests -->
       <class name="testCases.ResumenPageTests">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="downloadButtonNotAvailable"/>
-          <include name="downloadButtonAvailable"/>
         </methods>
       </class> <!-- testCases.ResumenPageTests -->
+      <class name="testCases.FacturasPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="selectMultipleInvoceis"/>
+          <include name="tearDown"/>
+          <include name="searchByDate"/>
+          <include name="searchByInvoiceNumber"/>
+        </methods>
+      </class> <!-- testCases.FacturasPageTests -->
     </classes>
   </test> <!-- C:/Users/roxana.bogdan/Desktop/Project(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
