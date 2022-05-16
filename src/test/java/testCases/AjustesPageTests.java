@@ -19,6 +19,7 @@ public class AjustesPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         ajustesPage.clickAjustesTab();
         Boolean beforeSave = ajustesPage.isEmailCheckboxSelected();
         ajustesPage.selectEmailCheckbox();
@@ -34,6 +35,7 @@ public class AjustesPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         String title = ajustesPage.getTitlePage();
         ajustesPage.clickAjustesTab();
         Boolean beforeCancel = ajustesPage.isDigitalInvoiceCheckboxSelected();

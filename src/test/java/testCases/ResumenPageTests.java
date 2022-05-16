@@ -21,6 +21,7 @@ public class ResumenPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         resumenPage.clickResumenTab();
         Assert.assertTrue(resumenPage.isNotAvailable());
     }
@@ -32,6 +33,7 @@ public class ResumenPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         resumenPage.clickResumenTab();
         Assert.assertTrue(resumenPage.isAvailable(), "Download button is not available");
         String fileName = resumenPage.getFileName();

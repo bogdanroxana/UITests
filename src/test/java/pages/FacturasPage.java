@@ -17,6 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 import static util.CommonTask.*;
 
@@ -72,26 +73,15 @@ public class FacturasPage {
 
     //------------------------- Actions
 
-    public void acceptCookies() throws InterruptedException {
-        try{
-            Thread.sleep(5000);
-            WebElement shadowElement = shadowHost.getShadowRoot().findElement(By.cssSelector("div > div > div > div > div > div > div > div > div.buttons > button"));
-            if(shadowElement.isDisplayed()){
-                clickElement(driver, shadowElement, "Shadow Element");
-            }
-        }catch(NoSuchElementException e ){
-            int i = 0;
-            while(true){
-                i++;
-                System.out.println(i + "\t\t\t\t sec cookie");
-                Thread.sleep(1000);
-                WebElement shadowElement = shadowHost.getShadowRoot().findElement(By.cssSelector("div > div > div > div > div > div > div > div > div.buttons > button"));
-                if(shadowElement.isDisplayed()){
-                    clickElement(driver, shadowElement, "Shadow Element");
-                    break;
-                }
-            }
-        }
+    public void acceptCookies() {
+        Cookie cookie = new Cookie.Builder("allowedCookieCategories", "allowedCookieCategories")
+                .domain(".makro.es")
+                .isHttpOnly(false)
+                .isSecure(false)
+                .path("/")
+                .build();
+        driver.manage().addCookie(cookie);
+        driver.navigate().refresh();
     }
 
     public void setSearchField(String invoice){

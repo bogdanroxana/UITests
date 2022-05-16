@@ -14,6 +14,7 @@ public class FacturasPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         facturasPage.setSearchField(TestData.SEARCH_BY_INVOICE_NUMBER);
         facturasPage.clickSearchButton();
         facturasPage.clickOpenInvoice();
@@ -28,6 +29,7 @@ public class FacturasPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         facturasPage.setSearchField(TestData.SELECT_MULTIPLE_INVOICES);
         facturasPage.clickSearchButton();
         facturasPage.setCheckbox();
@@ -41,6 +43,7 @@ public class FacturasPageTests extends DriverBase{
         facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
+        facturasPage.acceptCookies();
         facturasPage.sendStartDate();
         facturasPage.sendStopDate();
         facturasPage.clickSearchButton();
