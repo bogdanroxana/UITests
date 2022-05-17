@@ -2,66 +2,66 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-16T12:53:12 EEST" name="All Test Suite" finished-at="2022-05-16T12:56:23 EEST" duration-ms="191252">
+  <suite started-at="2022-05-16T14:00:18 EEST" name="All Test Suite" finished-at="2022-05-16T14:03:31 EEST" duration-ms="193187">
     <groups>
     </groups>
-    <test started-at="2022-05-16T12:53:12 EEST" name="C:/Users/roxana.bogdan/Desktop/Project" finished-at="2022-05-16T12:56:23 EEST" duration-ms="191252">
+    <test started-at="2022-05-16T14:00:18 EEST" name="C:/Users/roxana.bogdan/Desktop/Project" finished-at="2022-05-16T14:03:31 EEST" duration-ms="193187">
       <class name="testCases.FacturasPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:53:12 EEST" name="setUp" finished-at="2022-05-16T12:53:16 EEST" duration-ms="4403" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:00:18 EEST" name="setUp" finished-at="2022-05-16T14:00:22 EEST" duration-ms="4530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchByInvoiceNumber()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:53:16 EEST" name="searchByInvoiceNumber" finished-at="2022-05-16T12:53:37 EEST" duration-ms="21364" status="PASS">
+        <test-method signature="searchByInvoiceNumber()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:00:22 EEST" name="searchByInvoiceNumber" finished-at="2022-05-16T14:00:44 EEST" duration-ms="22022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByInvoiceNumber -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:53:37 EEST" name="tearDown" finished-at="2022-05-16T12:53:38 EEST" duration-ms="447" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:00:44 EEST" name="tearDown" finished-at="2022-05-16T14:00:45 EEST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:53:38 EEST" name="setUp" finished-at="2022-05-16T12:53:42 EEST" duration-ms="4003" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:00:45 EEST" name="setUp" finished-at="2022-05-16T14:00:49 EEST" duration-ms="3957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectMultipleInvoceis()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:53:42 EEST" name="selectMultipleInvoceis" finished-at="2022-05-16T12:54:05 EEST" duration-ms="23442" status="PASS">
+        <test-method signature="selectMultipleInvoceis()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:00:49 EEST" name="selectMultipleInvoceis" finished-at="2022-05-16T14:01:13 EEST" duration-ms="24674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMultipleInvoceis -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:54:05 EEST" name="tearDown" finished-at="2022-05-16T12:54:06 EEST" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:01:13 EEST" name="tearDown" finished-at="2022-05-16T14:01:14 EEST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:54:06 EEST" name="setUp" finished-at="2022-05-16T12:54:10 EEST" duration-ms="4435" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:01:14 EEST" name="setUp" finished-at="2022-05-16T14:01:18 EEST" duration-ms="4107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchByDate()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:54:10 EEST" name="searchByDate" finished-at="2022-05-16T12:55:20 EEST" duration-ms="69631" status="PASS">
+        <test-method signature="searchByDate()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:01:18 EEST" name="searchByDate" finished-at="2022-05-16T14:02:27 EEST" duration-ms="69190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByDate -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T12:55:20 EEST" name="tearDown" finished-at="2022-05-16T12:55:20 EEST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FacturasPageTests@703580bf]" started-at="2022-05-16T14:02:27 EEST" name="tearDown" finished-at="2022-05-16T14:02:27 EEST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.FacturasPageTests -->
       <class name="testCases.AjustesPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T12:55:58 EEST" name="setUp" finished-at="2022-05-16T12:56:02 EEST" duration-ms="3957" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T14:03:05 EEST" name="setUp" finished-at="2022-05-16T14:03:09 EEST" duration-ms="3500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkSaveButton()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T12:56:02 EEST" name="checkSaveButton" finished-at="2022-05-16T12:56:14 EEST" duration-ms="11382" status="PASS">
+        <test-method signature="checkSaveButton()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T14:03:09 EEST" name="checkSaveButton" finished-at="2022-05-16T14:03:21 EEST" duration-ms="12480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSaveButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T12:56:14 EEST" name="tearDown" finished-at="2022-05-16T12:56:14 EEST" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T14:03:21 EEST" name="tearDown" finished-at="2022-05-16T14:03:21 EEST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T12:56:14 EEST" name="setUp" finished-at="2022-05-16T12:56:18 EEST" duration-ms="3833" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T14:03:21 EEST" name="setUp" finished-at="2022-05-16T14:03:25 EEST" duration-ms="4040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkCancelButton()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T12:56:18 EEST" name="checkCancelButton" finished-at="2022-05-16T12:56:23 EEST" duration-ms="4690" status="FAIL">
+        <test-method signature="checkCancelButton()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T14:03:25 EEST" name="checkCancelButton" finished-at="2022-05-16T14:03:31 EEST" duration-ms="5299" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".css\-gvmf41"}
@@ -70,9 +70,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'BUK30LAP4000427', ip: '192.168.100.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e32c7e9ebb7b7edc0ca9926454f08220, findElement {using=class name, value=css-gvmf41}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.15 (0dcf182bd388..., userDataDir: C:\Users\ROXANA~1.BOG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62627/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e32c7e9ebb7b7edc0ca9926454f08220]]>
+Command: [b2e52e7e2b76247f04cbe7d6a405d087, findElement {using=class name, value=css-gvmf41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.15 (0dcf182bd388..., userDataDir: C:\Users\ROXANA~1.BOG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49297/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2e52e7e2b76247f04cbe7d6a405d087]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".css\-gvmf41"}
@@ -81,9 +81,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'BUK30LAP4000427', ip: '192.168.100.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e32c7e9ebb7b7edc0ca9926454f08220, findElement {using=class name, value=css-gvmf41}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.15 (0dcf182bd388..., userDataDir: C:\Users\ROXANA~1.BOG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62627/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e32c7e9ebb7b7edc0ca9926454f08220
+Command: [b2e52e7e2b76247f04cbe7d6a405d087, findElement {using=class name, value=css-gvmf41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.15 (0dcf182bd388..., userDataDir: C:\Users\ROXANA~1.BOG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49297/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2e52e7e2b76247f04cbe7d6a405d087
 at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -142,33 +142,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCancelButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T12:56:23 EEST" name="tearDown" finished-at="2022-05-16T12:56:23 EEST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AjustesPageTests@41e36e46]" started-at="2022-05-16T14:03:31 EEST" name="tearDown" finished-at="2022-05-16T14:03:31 EEST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.AjustesPageTests -->
       <class name="testCases.ResumenPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T12:55:20 EEST" name="setUp" finished-at="2022-05-16T12:55:24 EEST" duration-ms="3953" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T14:02:27 EEST" name="setUp" finished-at="2022-05-16T14:02:32 EEST" duration-ms="4170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="downloadButtonNotAvailable()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T12:55:24 EEST" name="downloadButtonNotAvailable" finished-at="2022-05-16T12:55:38 EEST" duration-ms="13592" status="PASS">
+        <test-method signature="downloadButtonNotAvailable()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T14:02:32 EEST" name="downloadButtonNotAvailable" finished-at="2022-05-16T14:02:43 EEST" duration-ms="11661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadButtonNotAvailable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T12:55:38 EEST" name="tearDown" finished-at="2022-05-16T12:55:38 EEST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T14:02:43 EEST" name="tearDown" finished-at="2022-05-16T14:02:44 EEST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T12:55:38 EEST" name="setUp" finished-at="2022-05-16T12:55:42 EEST" duration-ms="3976" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T14:02:44 EEST" name="setUp" finished-at="2022-05-16T14:02:47 EEST" duration-ms="3930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="downloadButtonAvailable()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T12:55:42 EEST" name="downloadButtonAvailable" finished-at="2022-05-16T12:55:58 EEST" duration-ms="16169" status="PASS">
+        <test-method signature="downloadButtonAvailable()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T14:02:47 EEST" name="downloadButtonAvailable" finished-at="2022-05-16T14:03:05 EEST" duration-ms="17224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadButtonAvailable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T12:55:58 EEST" name="tearDown" finished-at="2022-05-16T12:55:58 EEST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ResumenPageTests@76508ed1]" started-at="2022-05-16T14:03:05 EEST" name="tearDown" finished-at="2022-05-16T14:03:05 EEST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
