@@ -1,9 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import util.Waiting;
@@ -27,13 +24,26 @@ public class LoginPage {
     @FindBy(id = "submit")
     private WebElement loginButton;
 
-    public void login(String user, String password) throws InterruptedException {
+    public  void login(String user, String password) throws InterruptedException {
+        acceptCookies();
         Waiting.visibilityOfElement(driver, userField, "UserName Field");
         sendKeys(userField, user, "Username Field");
         sendKeys(passwordField, password, "Password Field");
         Waiting.elementToBeClickable(driver, loginButton, "Login Button");
         clickElement(driver, loginButton, "Login Button");
         Thread.sleep(1000);
+        acceptCookies();
+    }
+
+    public void acceptCookies() {
+        Cookie cookie = new Cookie.Builder("allowedCookieCategories", "allowedCookieCategories")
+                .domain(".makro.es")
+                .isHttpOnly(false)
+                .isSecure(false)
+                .path("/")
+                .build();
+        driver.manage().addCookie(cookie);
+        driver.navigate().refresh();
     }
 
 }

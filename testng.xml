@@ -18,8 +18,8 @@
             </class>
             <class name="testCases.AjustesPageTests">
                 <methods>
-                    <include name="checkSaveButton"/>
-                    <include name="checkCancelButton"/>
+                    <include name="checkCancelActionWorksAsExpected"/>
+                    <include name="checkSaveActionWorksAsExpected"/>
                 </methods>
             </class>
         </classes>

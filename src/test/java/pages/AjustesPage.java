@@ -32,26 +32,25 @@ public class AjustesPage {
     private WebElement cancelButton;
     @FindBy(className = "css-gvmf41")
     private WebElement titleElement;
-
+    @FindBy(css = ".sc-dkPtRN.gYqWAc.css-1qnf0nw")
+    private WebElement alert;
 
     public void clickAjustesTab() throws InterruptedException {
         CommonTask.clickElement(driver, ajustesTab, "Ajustes tab");
-        Thread.sleep(1000);
         try {
             Waiting.visibilityOfElement(driver, invoiceText, "Invoice text");
         } catch(AssertionError e) {
-            Thread.sleep(120000);
+            driver.navigate().refresh();
+            Waiting.visibilityOfElement(driver, invoiceText, "Invoice text");
         }
     }
 
     public Boolean isEmailCheckboxSelected() throws InterruptedException {
-        Thread.sleep(1000);
         Waiting.visibilityOfElement(driver, emailText, "Email text");
         return emailCheckbox.isSelected();
     }
 
     public Boolean isDigitalInvoiceCheckboxSelected() throws InterruptedException {
-        Thread.sleep(1000);
         Waiting.visibilityOfElement(driver, invoiceText, "Invoice text");
         return digitalInvoiceCheckbox.isSelected();
     }
@@ -70,10 +69,8 @@ public class AjustesPage {
     }
 
     public String getAlertText() throws InterruptedException {
-        Thread.sleep(2000);
-        WebElement alert = driver.findElement(By.cssSelector(".sc-dkPtRN.gYqWAc.css-1qnf0nw"));
+        Waiting.visibilityOfElement(driver, alert, "Alert notification");
         return alert.getText();
-
     }
 
     public void clickCancelButton(){
@@ -82,7 +79,7 @@ public class AjustesPage {
     }
 
     public String getTitlePage() throws InterruptedException {
-        Thread.sleep(1000);
+        Waiting.visibilityOfElement(driver, titleElement, "Facturas page title");
         return titleElement.getText();
     }
 }

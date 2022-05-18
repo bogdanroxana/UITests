@@ -1,35 +1,36 @@
 package testCases;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import pages.FacturasPage;
 import pages.LoginPage;
 import util.TestData;
 
+import java.io.IOException;
+
 public class FacturasPageTests extends DriverBase{
 
-    @Test
-    public void searchByInvoiceNumber() throws Exception {
+    @BeforeClass
+    public void setupTest() throws InterruptedException {
+        DriverBase.setUp();
         facturasPage = new FacturasPage(driver);
-        facturasPage.acceptCookies();
         loginPage = new LoginPage(driver);
         loginPage.login(TestData.USER, TestData.PASSWORD);
-        facturasPage.acceptCookies();
+    }
+
+    @Test(priority = 1)
+    public void searchByInvoiceNumber() throws Exception {
         facturasPage.setSearchField(TestData.SEARCH_BY_INVOICE_NUMBER);
         facturasPage.clickSearchButton();
         facturasPage.clickOpenInvoice();
         Assert.assertTrue(facturasPage.getInvoiceNumber().contains(TestData.SEARCH_BY_INVOICE_NUMBER));
         Assert.assertTrue(facturasPage.checkText());
-
     }
 
-    @Test
+    @Test(priority = 2)
     public void selectMultipleInvoceis() throws Exception {
-        facturasPage = new FacturasPage(driver);
-        facturasPage.acceptCookies();
-        loginPage = new LoginPage(driver);
-        loginPage.login(TestData.USER, TestData.PASSWORD);
-        facturasPage.acceptCookies();
+        facturasPage.clearSearchField();
         facturasPage.setSearchField(TestData.SELECT_MULTIPLE_INVOICES);
         facturasPage.clickSearchButton();
         facturasPage.setCheckbox();
@@ -37,17 +38,27 @@ public class FacturasPageTests extends DriverBase{
         Assert.assertTrue(facturasPage.checkIfDownloaded());
     }
 
-    @Test
+    @Test(priority = 3)
     public void searchByDate() throws Exception {
-        facturasPage = new FacturasPage(driver);
-        facturasPage.acceptCookies();
-        loginPage = new LoginPage(driver);
-        loginPage.login(TestData.USER, TestData.PASSWORD);
-        facturasPage.acceptCookies();
         facturasPage.sendStartDate();
         facturasPage.sendStopDate();
+        facturasPage.clearSearchField();
         facturasPage.clickSearchButton();
         Assert.assertTrue(facturasPage.compareStopDates() >= 0);
         Assert.assertTrue(facturasPage.compareStartDates() <= 0);
     }
+
+    @AfterMethod
+    public void takescreenhot(ITestResult result) throws IOException {
+        if(ITestResult.FAILURE == result.getStatus()) {
+            DriverBase.takeScreenshot(driver, result.getName());
+        }
+    }
+
+    @AfterClass
+    public void teardown() throws IOException {
+        DriverBase.tearDown();
+
+    }
+
 }

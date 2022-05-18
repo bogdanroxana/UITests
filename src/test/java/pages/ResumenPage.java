@@ -33,24 +33,23 @@ public class ResumenPage {
     private WebElement rowText;
     @FindBy(xpath = "//table/tbody/tr[10]/td[2]/button")
     private WebElement downloadButton;
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/div/span[1]")
+    private WebElement textSecondRow;
 
 
 
 
-    public void clickResumenTab() throws InterruptedException {
+    public void clickResumenTab(){
         clickElement(driver, resumenTab, "Resumen Tab");
-        Thread.sleep(3000);
         try {
-            WebElement textSecondRow = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/div/span[1]"));
+            Waiting.visibilityOfElement(driver, textSecondRow, "Text second row");
         } catch(NoSuchElementException e) {
             driver.navigate().refresh();
-            Thread.sleep(4000);
-            System.out.println("\n\nrefresh\n\n");
+            Waiting.visibilityOfElement(driver, textSecondRow, "Text second row");
         }
     }
 
-    public boolean isNotAvailable() throws InterruptedException {
-        Thread.sleep(3000);
+    public boolean isNotAvailable(){
         Waiting.visibilityOfElement(driver, firstRowText, "First row");
         String text = firstRowText.getText();
         int currentMonth = LocalDate.now().getMonthValue();
@@ -65,10 +64,8 @@ public class ResumenPage {
 
 
 
-    public boolean isAvailable() throws InterruptedException {
-        Thread.sleep(1000);
+    public boolean isAvailable(){
         Waiting.visibilityOfElement(driver, rowText, "Row");
-
         String text = rowText.getText();
         int currentMonth = LocalDate.now().getMonthValue();
         int currentYear = LocalDate.now().getYear();

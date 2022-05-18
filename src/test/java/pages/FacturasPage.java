@@ -32,8 +32,8 @@ public class FacturasPage {
 
     //------------------------- Elements
 
-    @FindBy(xpath = "//body//cms-cookie-disclaimer")
-    private WebElement shadowHost;
+//    @FindBy(xpath = "//body//cms-cookie-disclaimer")
+//    private WebElement shadowHost;
     @FindBy(id = "id")
     private WebElement searchField;
     @FindBy(className = "css-1nt0ni0")
@@ -73,20 +73,15 @@ public class FacturasPage {
 
     //------------------------- Actions
 
-    public void acceptCookies() {
-        Cookie cookie = new Cookie.Builder("allowedCookieCategories", "allowedCookieCategories")
-                .domain(".makro.es")
-                .isHttpOnly(false)
-                .isSecure(false)
-                .path("/")
-                .build();
-        driver.manage().addCookie(cookie);
-        driver.navigate().refresh();
-    }
-
     public void setSearchField(String invoice){
         Waiting.visibilityOfElement(driver, searchField, "Search Field");
         sendKeys(searchField, invoice, "Search Field");
+    }
+
+    public void clearSearchField() {
+        while (searchField.getAttribute("value").length() != 0) {
+            searchField.sendKeys(Keys.BACK_SPACE);
+        }
     }
 
     public void clickSearchButton() throws InterruptedException {
@@ -98,7 +93,7 @@ public class FacturasPage {
     public void clickOpenInvoice() throws InterruptedException {
         Waiting.elementToBeClickable(driver, openInvoice, "Open Invoice");
         clickElement(driver, openInvoice, "Open Invoice");
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
     public String getInvoiceNumber(){
         return invoiceNumber.getText();
@@ -123,7 +118,6 @@ public class FacturasPage {
         return false;
     }
     public void setCheckbox() throws InterruptedException {
-        Thread.sleep(2000);
         clickCheckbox(driver, selectAll, "Select all button");
     }
     public void clickDownloadButton() throws InterruptedException {
@@ -149,28 +143,25 @@ public class FacturasPage {
 
     public int compareStopDates() throws ParseException {
         String tableStop = getDate(table, "stop");
-        int result = compareDates(stopDate.getAttribute("value").replace('.', '/'), tableStop);
-        return result;
+        return compareDates(stopDate.getAttribute("value").replace('.', '/'), tableStop);
     }
 
     public int compareStartDates() throws ParseException, InterruptedException {
         goToLastPage();
         String tableStart = getDate(table, "start");
-        int result = compareDates(startDate.getAttribute("value").replace('.', '/'), tableStart);
-//        Assert.assertEquals(tableStart, "11/10/2021");
-        return result;
+        return compareDates(startDate.getAttribute("value").replace('.', '/'), tableStart);
     }
 
     public void goToLastPage() throws InterruptedException {
-        Thread.sleep(3000);
         Waiting.visibilityOfElement(driver,nextPage, "Next page");
         while(nextPage.getAttribute("disabled") == null){
             String date = dateText.getText();
             String invoice = invoiceText.getText();
             Waiting.visibilityOfElement(driver, nextPage, "Next page");
             clickElement(driver, nextPage, "Next page");
-            Thread.sleep(1000);
-            waitNextPage(date, invoice);
+            if(Objects.equals(date, dateText.getText()) && Objects.equals(invoice, invoiceText.getText())) {
+                waitNextPage(date, invoice);
+            }
         }
     }
 
@@ -198,7 +189,7 @@ public class FacturasPage {
 //  get the first date from table when position = stop and last date from table when position = start
     public String getDate(WebElement table, String position){
         List<WebElement> rows = table.findElements(By.className("css-upnin5"));
-        String date = new String();
+        String date = "";
         if(Objects.equals(position, "stop"))
             date = rows.get(0).findElement(By.className("css-ly1m6m")).getText();
         else if(Objects.equals(position, "start"))
